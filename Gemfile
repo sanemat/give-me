@@ -2,4 +2,4 @@ source "http://rubygems.org"
 
 gem 'rack'
 gem 'thin'
-gem 'forman'
+gem 'foreman'
