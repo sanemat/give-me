@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
 gem 'rack'
-gem 'thin'
-gem 'foreman'
+group :development do
+  gem 'thin'
+  gem 'foreman'
+end
