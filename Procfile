@@ -1,1 +1,1 @@
-web: bundle exec thin start -R give_me.ru -p $PORT -e PRODUCTION
+web: bundle exec rackup give_me.ru -p $PORT -E production
